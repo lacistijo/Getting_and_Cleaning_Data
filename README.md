@@ -1,5 +1,4 @@
-# Getting_and_Cleaning_Data
-Getting and cleaning data assignment
+# Getting and cleaning data assignment
 
 The run_analysis.R script reads datasets which contain accelerometer measurements 
 from a Samsung Galaxy S smartphone, and outputs an independent tidy data set 
