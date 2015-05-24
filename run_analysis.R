@@ -48,6 +48,7 @@ average  <- aggregate(measurements[, 1:67], list(measurements$Subject_ID, measur
 result  <- average[,1:68]
 colnames(result)[1] <- "Subject_ID"
 colnames(result)[2] <- "Activity"
+colnames(result)[3:68] <- paste("AVG", colnames(result)[3:68], sep = "_")
 
 #Writing the resulting dataset to a file
 write.table(result,"Activity_Measurements.txt",row.name=FALSE)
