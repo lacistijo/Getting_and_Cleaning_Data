@@ -7,13 +7,13 @@ with the average of each variable for each activity and each subject from the or
 
 It requires the input datafiles:
 
-X_train.txt
-subject_train.txt
-y_train.txt
-features.txt
-X_test.txt
-subject_test.txt
-y_test.txt
+* X_train.txt
+* subject_train.txt
+* y_train.txt
+* features.txt
+* X_test.txt
+* subject_test.txt
+* y_test.txt
 
 to be in the same working directory where the script is.
 The files can be downloaded in an archived format from the following link:
